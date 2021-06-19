@@ -2,6 +2,7 @@
 require_once "config.php";
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+
 	$motor1=$_POST["motor1"];
         $motor2=$_POST["motor2"];
         $motor3=$_POST["motor3"];
