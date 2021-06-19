@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>التحكم بالذراع</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>   
+    <div>
+        <nav class="stick-navigation">
+            <div class="logo"><img height="100px" src="logo.png"></div>
+            <ul>
+                <li>
+                    <a href="select.php">صفحة الربط مع نظام ROS</a>
+                </li>
+            </ul>
+        </nav>
+        <form method="post" style="margin: 10% 10% 0% 10%;" action="motors.php">
+          <p>
+            المحرك 1 :
+            <input type="range" name="motor1" min="0" max="180" id="1">
+            الزاوية : <span id="demo1"></span>
+          </p>
+          <p>
+            المحرك 2 :
+            <input type="range" name="motor2" min="0" max="180" id="2">
+            الزاوية : <span id="demo2"></span>
+          </p>  
+          <p>
+            المحرك 3 :
+            <input type="range" name="motor3" min="0" max="180" id="3">
+            الزاوية : <span id="demo3"></span>
+          </p>  
+          <p>
+            المحرك 4 :
+            <input type="range" name="motor4" min="0" max="180" id="4">
+            الزاوية : <span id="demo4"></span>
+          </p>            
+          <p>
+            المحرك 5 :
+            <input type="range" name="motor5" min="0" max="180" id="5">
+            الزاوية : <span id="demo5"></span>
+          </p>
+          <p>
+            المحرك 6 :
+            <input type="range" name="motor6" min="0" max="180" id="6">
+            الزاوية : <span id="demo6"></span>
+          </p>
+          <input type="submit" value="تحفظ">
+        </form>
+        <form action="button-start.php" method="post" style="margin-right:10%"><input type="submit" value="تشغيل"></form>
+    </div>
+    <script src="js/javaS.js"></script>
+</body>
+</html>

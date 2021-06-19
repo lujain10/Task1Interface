@@ -1,0 +1,11 @@
+@import url("http://www.fontstatic.com/f=sky-bold,sky");
+table{ width:100%; padding: 20px;margin-top:8%;text-align: center;border-collapse: collapse;font-size: 20px;}
+th{background: #5f5f5f;color: #fff;padding: 5px 0;}
+body{margin:0;padding:0;font-family: sky;font-size:16px;background-color:#efefef;}
+nav{width:100%;background-color:rgba(95, 95, 95,0.5);height:100px;color: white;position:fixed; top: 0;z-index: 9999;border-bottom: 1px solid white; }
+.logo{float: right;}
+ul{margin:0;padding: 10px 0; float: left;list-style-type: none;}
+li{float: left;padding: 0 5px}
+a{display: inline-block;padding: 14px 10px;line-height:2px;margin:25px 0; color: white;text-decoration: none; }
+a:hover,a:active{border-radius:5px;border:1px solid white;color: white;text-decoration: none;}
+p{margin-right:10%}
